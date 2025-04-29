@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diana y Victor</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="music-control">
+    <audio id="bg-music" src="musica.mp3" loop></audio>
+    <button id="toggle-music">🎵</button>
+  </div>
+
+  <section class="hero">
+    <canvas id="petalos-canvas"></canvas> 
+    <div class="overlay">
+      <p class="fecha">21/03/2026</p>
+      <h3>Save the date</h3>
+      <div class="countdown">
+        <div class="time-box">
+          <span id="days">00</span>
+          <div class="label">Días</div>
+        </div>
+        <div class="time-box">
+          <span id="hours">00</span>
+          <div class="label">Horas</div>
+        </div>
+        <div class="time-box">
+          <span id="minutes">00</span>
+          <div class="label">Minutos</div>
+        </div>
+        <div class="time-box">
+          <span id="seconds">00</span>
+          <div class="label">Segundos</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-content">
+    <div class="marco">
+      <img src="foto1.jpeg" alt="Novios">
+    </div>
+    <div class="info">
+      <h3>Diana & Víctor</h3>
+      <p>"Amar es reconocerte en otra vida, en esta y en todas."</p>
+    </div>
+  </section>
+
+  <section class="carrusel">
+    <div class="slider">
+      <div class="slide"><img src="foto1.jpeg" alt="Foto 1"></div>
+      <div class="slide"><img src="foto2.jpeg" alt="Foto 2"></div>
+      <div class="slide"><img src="foto3.jpeg" alt="Foto 3"></div>
+      <div class="slide"><img src="foto1.jpeg" alt="Foto 4"></div>
+      <div class="slide"><img src="foto2.jpeg" alt="Foto 5"></div>
+    </div>
+  </section>
+
+  <section class="final">
+    <p>¡Espera tu invitación formal!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
