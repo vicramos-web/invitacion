@@ -156,14 +156,16 @@
   
   .carrusel {
     display: flex;
-    width: calc(200%); /* suficiente para duplicar */
+    width: calc(200%); 
     animation: scrollCarrusel 30s linear infinite;
   }
   
   .carrusel img {
-    width: 20%; /* 5 imágenes en fila = 100% dividido en 5 */
-    height: auto;
+    width: auto; 
+    height: 300px;
     object-fit: cover;
+    flex-shrink: 0;
+    display: block;
   }
   
   @keyframes scrollCarrusel {
