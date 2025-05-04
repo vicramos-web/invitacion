@@ -28,6 +28,8 @@
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
   }
+
+  
   
   /* Hero Section */
   .hero {
@@ -201,7 +203,7 @@
   /* Final Section */
   .final {
     background: #dfd39b;
-    padding: 50px 20px;
+    padding: 30px 20px;
     text-align: center;
   }
   
@@ -248,3 +250,29 @@
     }
   }
   
+  /* Contacto */
+  .seccion-contacto {
+    background-color: #fef5f5; /* Cambia este color cuando gustes */
+    text-align: center;
+    padding: 10px 20px;
+ 
+    border-top: 2px solid #e0dcdc;
+  }
+  
+  .frase-contacto {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #4a4a4a; /* Color de la frase */
+  }
+  
+  .redes-sociales a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #c94f7c; /* Color de los íconos */
+    transition: color 0.3s;
+  }
+  
+  .redes-sociales a:hover {
+    color: #e91e63;
+  }
